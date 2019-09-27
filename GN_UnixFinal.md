@@ -85,6 +85,9 @@ Next I had to transpose the data using the awk one liner that was provided to us
 
 The last step was moving the finished files into the maize and teosinte folders. Yay! Now I can start working with cutting out the files I want. Maize first.
 
+`grep "Group" fang_et_al_genotypes.txt > header.txt`
+This is just did to have a file with the headers saved seperatly. I use this later on when I need to append the data to the header.
+
 ###Maize Data
 
 `cp joined_maize.txt Increasing/`
